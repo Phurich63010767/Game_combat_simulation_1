@@ -16,9 +16,9 @@ int main()
 	{
 		cout << "Attack: " << a << "                                      " << "Monster HP: " << h << endl;
 		cout << "Critical chance: " << c << " %" << endl;
-		cout << "Press Spacebar 2 times and Enter to attack." << endl;
+		cout << "Press Spacebar Enter to attack." << endl;
 		char ans; 
-		while (getchar() != 32 || getchar() != ' ');
+		while (getchar() != 32);
 		{
 			srand(time(0));
 			for (int i = 0; i < 10; i++)
